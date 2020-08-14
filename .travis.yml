@@ -1,0 +1,8 @@
+language:java
+jdk:
+ - oraclejdk14
+
+ script: ./mvnw clean install
+
+ notifications:
+  email: peng@u.yale-nus.edu.sg
