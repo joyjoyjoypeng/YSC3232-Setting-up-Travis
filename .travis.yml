@@ -4,4 +4,4 @@ addons:
     packages:
       - oracle-java8-headless
 script:
-	- make run
+- make run
