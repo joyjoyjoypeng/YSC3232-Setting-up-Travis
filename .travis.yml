@@ -2,6 +2,6 @@ language: generic
 addons:
   apt:
     packages:
-      - oracle-java8-installer
+      - oracle-java11-installer
 script:
   - make run
