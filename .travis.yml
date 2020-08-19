@@ -1,3 +1,7 @@
 language: generic
+addons:
+  apt:
+    packages:
+      - oracle-java8-headless
 script:
 	- make run
