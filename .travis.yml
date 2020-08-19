@@ -1,7 +1,3 @@
 language: generic
-addons:
-  apt:
-    packages:
-      - oracle-java11-installer
 script:
   - make run
