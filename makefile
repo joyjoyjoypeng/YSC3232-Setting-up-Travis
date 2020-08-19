@@ -1,7 +1,7 @@
 TARGET=Hello
 
-%.class : %.java
-	javac $<
+%.class:%.java
+	javac$<
 
-run : ${TARGET}.class
-	java ${TARGET}
+run:${TARGET}.class
+	java${TARGET}
